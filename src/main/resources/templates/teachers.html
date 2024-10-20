@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Paginated Teachers List</title>
+</head>
+<body>
+
+<h1>Teachers List</h1>
+
+<!-- Display table of teachers -->
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>VAT</th>
+        <th>AMKA</th>
+        <th>Is Active</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Iterate over the content of the current page -->
+    <tr th:each="teacher : ${teachersPage.content}">
+        <!-- Teacher ID -->
+        <td th:text="${teacher.id}">1</td>
+
+        <!-- User's First Name from User Entity -->
+        <td th:text="${teacher.user.firstname}">John</td>
+
+        <!-- User's Last Name from User Entity -->
+        <td th:text="${teacher.user.lastname}">Doe</td>
+
+        <!-- User's VAT from User Entity -->
+        <td th:text="${teacher.user.vat}">123456789</td>
+
+        <!-- Personal Info's AMKA from PersonalInfo Entity -->
+        <td th:text="${teacher.personalInfo.amka}">98765432101</td>
+
+        <!-- Teacher's isActive field -->
+        <td th:text="${teacher.isActive}">true</td>
+    </tr>
+    </tbody>
+</table>
+
+<!-- Pagination controls -->
+<div>
+    <ul>
+        <!-- Show 'Previous' link if not on the first page -->
+        <li th:if="${teachersPage.hasPrevious()}">
+            <a th:href="@{/teachers(page=${teachersPage.number - 1}, size=${teachersPage.size})}">Previous</a>
+        </li>
+
+        <!-- Show 'Next' link if not on the last page -->
+        <li th:if="${teachersPage.hasNext()}">
+            <a th:href="@{/teachers(page=${teachersPage.number + 1}, size=${teachersPage.size})}">Next</a>
+        </li>
+
+        <!-- Show page numbers -->
+        <li th:each="i : ${#numbers.sequence(0, teachersPage.totalPages - 1)}">
+            <a th:href="@{/teachers(page=${i}, size=${teachersPage.size})}" th:text="${i + 1}">1</a>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

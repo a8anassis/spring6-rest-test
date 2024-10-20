@@ -1,0 +1,366 @@
+2024-10-20 17:52:49 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 17:52:49 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 33808 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 17:52:49 INFO  - The following 1 profile is active: "test"
+2024-10-20 17:52:49 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 17:52:50 INFO  - Finished Spring Data repository scanning in 66 ms. Found 5 JPA repository interfaces.
+2024-10-20 17:52:50 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 17:52:50 INFO  - Root WebApplicationContext: initialization completed in 1474 ms
+2024-10-20 17:52:51 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 17:52:51 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 17:52:51 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 17:52:51 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 17:52:52 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 17:52:53 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 17:52:53 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-20 17:52:53 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-20 17:52:53 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 17:52:54 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 17:52:54 INFO  - Started DataTestApplication in 5.664 seconds (process running for 5.984)
+2024-10-20 17:53:44 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-20 17:53:44 INFO  - Completed initialization in 2 ms
+2024-10-20 17:57:53 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 17:57:53 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 38072 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 17:57:53 INFO  - The following 1 profile is active: "test"
+2024-10-20 17:57:53 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 17:57:53 INFO  - Finished Spring Data repository scanning in 66 ms. Found 5 JPA repository interfaces.
+2024-10-20 17:57:54 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 17:57:54 INFO  - Root WebApplicationContext: initialization completed in 1504 ms
+2024-10-20 17:57:54 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 17:57:54 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 17:57:55 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 17:57:55 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 17:57:56 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 17:57:56 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 17:57:57 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-20 17:57:57 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-20 17:57:57 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 17:57:58 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 17:57:58 INFO  - Started DataTestApplication in 5.591 seconds (process running for 5.908)
+2024-10-20 18:01:06 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-20 18:01:06 INFO  - Completed initialization in 5 ms
+2024-10-20 18:06:42 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 18:06:42 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 18476 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 18:06:42 INFO  - The following 1 profile is active: "test"
+2024-10-20 18:06:43 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 18:06:43 INFO  - Finished Spring Data repository scanning in 73 ms. Found 5 JPA repository interfaces.
+2024-10-20 18:06:44 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 18:06:44 INFO  - Root WebApplicationContext: initialization completed in 1542 ms
+2024-10-20 18:06:44 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 18:06:44 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 18:06:45 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 18:06:45 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 18:06:46 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 18:06:46 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 18:06:47 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-20 18:06:47 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-20 18:06:47 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 18:06:48 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 18:06:48 INFO  - Started DataTestApplication in 5.685 seconds (process running for 6.109)
+2024-10-20 18:06:57 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-20 18:06:57 INFO  - Completed initialization in 3 ms
+2024-10-20 18:06:58 WARN  - SQL Error: 1048, SQLState: 23000
+2024-10-20 18:06:58 ERROR - Column 'created_at' cannot be null
+2024-10-20 18:07:00 WARN  - SQL Error: 1048, SQLState: 23000
+2024-10-20 18:07:00 ERROR - Column 'created_at' cannot be null
+2024-10-20 18:07:06 WARN  - SQL Error: 1048, SQLState: 23000
+2024-10-20 18:07:06 ERROR - Column 'created_at' cannot be null
+2024-10-20 18:16:48 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 18:16:48 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 18276 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 18:16:48 INFO  - The following 1 profile is active: "test"
+2024-10-20 18:16:48 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 18:16:48 INFO  - Finished Spring Data repository scanning in 63 ms. Found 5 JPA repository interfaces.
+2024-10-20 18:16:49 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 18:16:49 INFO  - Root WebApplicationContext: initialization completed in 1492 ms
+2024-10-20 18:16:49 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 18:16:49 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 18:16:50 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 18:16:50 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 18:16:51 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 18:16:52 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 18:16:52 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-20 18:16:52 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-20 18:16:52 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 18:16:53 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 18:16:53 INFO  - Started DataTestApplication in 5.626 seconds (process running for 5.954)
+2024-10-20 18:17:28 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-20 18:17:28 INFO  - Completed initialization in 2 ms
+2024-10-20 18:17:28 WARN  - SQL Error: 1048, SQLState: 23000
+2024-10-20 18:17:28 ERROR - Column 'created_at' cannot be null
+2024-10-20 18:17:31 WARN  - SQL Error: 1048, SQLState: 23000
+2024-10-20 18:17:31 ERROR - Column 'created_at' cannot be null
+2024-10-20 18:27:36 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 18:27:36 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 17424 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 18:27:36 INFO  - The following 1 profile is active: "test"
+2024-10-20 18:27:37 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 18:27:37 INFO  - Finished Spring Data repository scanning in 65 ms. Found 5 JPA repository interfaces.
+2024-10-20 18:27:38 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 18:27:38 INFO  - Root WebApplicationContext: initialization completed in 1497 ms
+2024-10-20 18:27:38 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 18:27:38 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 18:27:38 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 18:27:39 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 18:27:40 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 18:27:40 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 18:27:41 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-20 18:27:41 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-20 18:27:41 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 18:27:41 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 18:27:41 INFO  - Started DataTestApplication in 5.613 seconds (process running for 5.925)
+2024-10-20 18:39:39 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 18:39:39 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 30148 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 18:39:39 INFO  - The following 1 profile is active: "test"
+2024-10-20 18:39:40 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 18:39:40 INFO  - Finished Spring Data repository scanning in 74 ms. Found 5 JPA repository interfaces.
+2024-10-20 18:39:40 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 18:39:40 INFO  - Root WebApplicationContext: initialization completed in 1509 ms
+2024-10-20 18:39:41 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 18:39:41 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 18:39:41 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 18:39:41 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 18:39:43 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 18:39:43 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 18:39:43 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-20 18:39:43 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-20 18:39:43 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 18:39:44 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 18:39:44 INFO  - Started DataTestApplication in 5.621 seconds (process running for 5.948)
+2024-10-20 18:48:39 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 18:48:39 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 26688 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 18:48:39 INFO  - The following 1 profile is active: "test"
+2024-10-20 18:48:39 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 18:48:40 INFO  - Finished Spring Data repository scanning in 64 ms. Found 5 JPA repository interfaces.
+2024-10-20 18:48:40 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 18:48:40 INFO  - Root WebApplicationContext: initialization completed in 1480 ms
+2024-10-20 18:48:40 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 18:48:41 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 18:48:41 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 18:48:41 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 18:48:42 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 18:48:43 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 18:48:43 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-20 18:48:43 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-20 18:48:43 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 18:48:44 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 18:48:44 INFO  - Started DataTestApplication in 5.596 seconds (process running for 5.917)
+2024-10-20 18:52:42 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 18:52:42 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 37372 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 18:52:42 INFO  - The following 1 profile is active: "test"
+2024-10-20 18:52:42 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 18:52:43 INFO  - Finished Spring Data repository scanning in 68 ms. Found 5 JPA repository interfaces.
+2024-10-20 18:52:43 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 18:52:43 INFO  - Root WebApplicationContext: initialization completed in 1460 ms
+2024-10-20 18:52:44 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 18:52:44 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 18:52:44 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 18:52:44 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 18:52:46 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 18:52:46 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 18:52:46 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 18:52:46 WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through field 'httpSecurity': Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Cannot apply org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer@49b73e6c to already built object
+2024-10-20 18:52:46 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 18:52:46 ERROR - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through field 'httpSecurity': Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Cannot apply org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer@49b73e6c to already built object
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at gr.aueb.cf.datatest.DataTestApplication.main(DataTestApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Cannot apply org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer@49b73e6c to already built object
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:355)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Cannot apply org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer@49b73e6c to already built object
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
+	... 31 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot apply org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer@49b73e6c to already built object
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.add(AbstractConfiguredSecurityBuilder.java:203)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.apply(AbstractConfiguredSecurityBuilder.java:142)
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.getAuthenticationManager(AuthenticationConfiguration.java:119)
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.authenticationManager(HttpSecurityConfiguration.java:141)
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity(HttpSecurityConfiguration.java:110)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146)
+	... 32 common frames omitted
+2024-10-20 18:55:02 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 18:55:02 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 35368 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 18:55:02 INFO  - The following 1 profile is active: "test"
+2024-10-20 18:55:02 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 18:55:02 INFO  - Finished Spring Data repository scanning in 65 ms. Found 5 JPA repository interfaces.
+2024-10-20 18:55:03 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 18:55:03 INFO  - Root WebApplicationContext: initialization completed in 1616 ms
+2024-10-20 18:55:03 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 18:55:04 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 18:55:04 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 18:55:04 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 18:55:06 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 18:55:06 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 18:55:06 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-20 18:55:06 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-20 18:55:06 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 18:55:07 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 18:55:07 INFO  - Started DataTestApplication in 5.824 seconds (process running for 6.165)
+2024-10-20 18:57:39 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 18:57:39 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 18324 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 18:57:39 INFO  - The following 1 profile is active: "test"
+2024-10-20 18:57:40 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 18:57:40 INFO  - Finished Spring Data repository scanning in 67 ms. Found 5 JPA repository interfaces.
+2024-10-20 18:57:41 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 18:57:41 INFO  - Root WebApplicationContext: initialization completed in 1468 ms
+2024-10-20 18:57:41 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 18:57:41 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 18:57:41 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 18:57:42 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 18:57:43 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 18:57:43 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 18:57:43 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-20 18:57:43 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 18:57:44 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 18:57:44 INFO  - Started DataTestApplication in 5.56 seconds (process running for 5.9)
+2024-10-20 18:58:16 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 18:58:16 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 25804 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 18:58:16 INFO  - The following 1 profile is active: "test"
+2024-10-20 18:58:17 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 18:58:17 INFO  - Finished Spring Data repository scanning in 70 ms. Found 5 JPA repository interfaces.
+2024-10-20 18:58:18 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 18:58:18 INFO  - Root WebApplicationContext: initialization completed in 1515 ms
+2024-10-20 18:58:18 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 18:58:18 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 18:58:19 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 18:58:19 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 18:58:20 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 18:58:20 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 18:58:21 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-20 18:58:21 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 18:58:22 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 18:58:22 INFO  - Started DataTestApplication in 5.688 seconds (process running for 6.009)
+2024-10-20 19:00:24 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 19:00:25 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 12436 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 19:00:25 INFO  - The following 1 profile is active: "test"
+2024-10-20 19:00:25 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 19:00:25 INFO  - Finished Spring Data repository scanning in 67 ms. Found 5 JPA repository interfaces.
+2024-10-20 19:00:26 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 19:00:26 INFO  - Root WebApplicationContext: initialization completed in 1498 ms
+2024-10-20 19:00:26 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 19:00:26 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 19:00:27 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 19:00:27 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 19:00:28 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 19:00:28 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 19:00:29 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-20 19:00:30 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 19:00:30 INFO  - Started DataTestApplication in 5.611 seconds (process running for 5.95)
+2024-10-20 19:00:48 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 19:00:48 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 26300 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 19:00:48 INFO  - The following 1 profile is active: "test"
+2024-10-20 19:00:49 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 19:00:49 INFO  - Finished Spring Data repository scanning in 72 ms. Found 5 JPA repository interfaces.
+2024-10-20 19:00:50 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 19:00:50 INFO  - Root WebApplicationContext: initialization completed in 1500 ms
+2024-10-20 19:00:50 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 19:00:50 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 19:00:50 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 19:00:52 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 19:00:52 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 19:00:52 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-20 19:00:53 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 19:00:53 INFO  - Started DataTestApplication in 5.547 seconds (process running for 5.947)
+2024-10-20 19:01:08 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-20 19:01:08 INFO  - Completed initialization in 2 ms
+2024-10-20 19:01:08 WARN  - SQL Error: 1048, SQLState: 23000
+2024-10-20 19:01:08 ERROR - Column 'created_at' cannot be null
+2024-10-20 19:03:07 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 19:03:07 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 32716 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 19:03:07 INFO  - The following 1 profile is active: "test"
+2024-10-20 19:03:08 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 19:03:08 INFO  - Finished Spring Data repository scanning in 68 ms. Found 5 JPA repository interfaces.
+2024-10-20 19:03:08 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 19:03:09 INFO  - Root WebApplicationContext: initialization completed in 1762 ms
+2024-10-20 19:03:09 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 19:03:09 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 19:03:09 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 19:03:11 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 19:03:11 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 19:03:11 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-20 19:03:12 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 19:03:12 INFO  - Started DataTestApplication in 5.913 seconds (process running for 6.237)
+2024-10-20 19:03:26 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-20 19:03:26 INFO  - Completed initialization in 3 ms
+2024-10-20 19:16:43 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 19:16:43 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 31300 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 19:16:43 INFO  - The following 1 profile is active: "test"
+2024-10-20 19:16:43 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 19:16:44 INFO  - Finished Spring Data repository scanning in 67 ms. Found 5 JPA repository interfaces.
+2024-10-20 19:16:44 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 19:16:44 INFO  - Root WebApplicationContext: initialization completed in 1635 ms
+2024-10-20 19:16:45 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 19:16:45 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 19:16:45 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 19:16:47 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 19:16:47 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 19:16:47 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-20 19:16:48 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 19:16:48 INFO  - Started DataTestApplication in 5.743 seconds (process running for 6.067)
+2024-10-20 19:17:17 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-20 19:17:17 INFO  - Completed initialization in 2 ms
+2024-10-20 19:21:56 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 19:21:56 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 16476 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 19:21:56 INFO  - The following 1 profile is active: "test"
+2024-10-20 19:21:57 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 19:21:57 INFO  - Finished Spring Data repository scanning in 72 ms. Found 5 JPA repository interfaces.
+2024-10-20 19:21:57 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 19:21:58 INFO  - Root WebApplicationContext: initialization completed in 1609 ms
+2024-10-20 19:21:58 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 19:21:58 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 19:21:58 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 19:22:00 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 19:22:00 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 19:22:00 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-20 19:22:01 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 19:22:01 INFO  - Started DataTestApplication in 5.718 seconds (process running for 6.047)
+2024-10-20 19:22:41 INFO  - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-20 19:22:41 INFO  - Starting DataTestApplication using Java 17.0.6 with PID 11764 (C:\Users\a8ana\IdeaProjects\spring6-data-test\build\classes\java\main started by a8ana in C:\Users\a8ana\IdeaProjects\spring6-data-test)
+2024-10-20 19:22:41 INFO  - The following 1 profile is active: "test"
+2024-10-20 19:22:41 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 19:22:42 INFO  - Finished Spring Data repository scanning in 66 ms. Found 5 JPA repository interfaces.
+2024-10-20 19:22:42 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-20 19:22:42 INFO  - Root WebApplicationContext: initialization completed in 1637 ms
+2024-10-20 19:22:43 INFO  - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 19:22:43 INFO  - HHH000026: Second-level cache disabled
+2024-10-20 19:22:43 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 19:22:45 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 19:22:45 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 19:22:45 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-20 19:22:46 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-20 19:22:46 INFO  - Started DataTestApplication in 5.754 seconds (process running for 6.114)
+2024-10-20 19:23:24 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-20 19:23:24 INFO  - Completed initialization in 2 ms

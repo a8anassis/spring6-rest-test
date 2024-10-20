@@ -1,0 +1,74 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="el">-->
+<!--<head>-->
+<!--    <title>Teacher Form</title>-->
+<!--    <link rel="stylesheet" href="../static/styles.css">-->
+<!--</head>-->
+<!--<body>-->
+
+<!--<h1>Teacher, User, and Personal Information Form</h1>-->
+
+<!--&lt;!&ndash; Display global error message (if any) &ndash;&gt;-->
+<!--<div th:if="${errorMessage}" class="error">-->
+<!--    <p th:text="${errorMessage}"></p>-->
+<!--</div>-->
+
+<!--<form th:action="@{/teachers/save}" th:object="${teacherInsertDTO}" method="post" enctype="multipart/form-data">-->
+
+<!--    &lt;!&ndash; Teacher Fields &ndash;&gt;-->
+<!--    <h3>Teacher Details</h3>-->
+
+<!--    <label for="isActive">Is Active:</label>-->
+<!--    <input type="checkbox" id="isActive" th:field="*{isActive}"-->
+<!--           th:classappend="${#fields.hasErrors('isActive')} ? 'error'" />-->
+<!--    <div th:if="${#fields.hasErrors('isActive')}">-->
+<!--        <p th:errors="*{isActive}"></p> &lt;!&ndash; Specific error for isActive &ndash;&gt;-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash; User Fields &ndash;&gt;-->
+<!--    <h3>User Information</h3>-->
+
+<!--    <label for="firstname">First Name:</label>-->
+<!--    <input type="text" id="firstname" th:field="*{user.firstname}"-->
+<!--           th:classappend="${#fields.hasErrors('user.firstname')} ? 'error'" />-->
+<!--    <div th:if="${#fields.hasErrors('user.firstname')}">-->
+<!--        <p th:errors="*{user.firstname}"></p>-->
+<!--    </div>-->
+
+<!--    <label for="lastname">Last Name:</label>-->
+<!--    <input type="text" id="lastname" th:field="*{user.lastname}"-->
+<!--           th:classappend="${#fields.hasErrors('user.lastname')} ? 'error'" />-->
+<!--    <div th:if="${#fields.hasErrors('user.lastname')}">-->
+<!--        <p th:errors="*{user.lastname}"></p>-->
+<!--    </div>-->
+
+<!--    <label for="vat">VAT Number:</label>-->
+<!--    <input type="text" id="vat" th:field="*{user.vat}"-->
+<!--           th:classappend="${#fields.hasErrors('user.vat')} ? 'error'" />-->
+<!--    <div th:if="${#fields.hasErrors('user.vat')}">-->
+<!--        <p th:errors="*{user.vat}"></p>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash; Personal Info Fields &ndash;&gt;-->
+<!--    <h3>Personal Information</h3>-->
+
+<!--    <label for="amka">AMKA:</label>-->
+<!--    <input type="text" id="amka" th:field="*{personalInfo.amka}"-->
+<!--           th:classappend="${#fields.hasErrors('personalInfo.amka')} ? 'error'" />-->
+<!--    <div th:if="${#fields.hasErrors('personalInfo.amka')}">-->
+<!--        <p th:errors="*{personalInfo.amka}"></p>-->
+<!--    </div>-->
+
+<!--    <label for="identityNumber">Identity Number:</label>-->
+<!--    <input type="text" id="identityNumber" th:field="*{personalInfo.identityNumber}"-->
+<!--           th:classappend="${#fields.hasErrors('personalInfo.identityNumber')} ? 'error'" />-->
+<!--    <div th:if="${#fields.hasErrors('personalInfo.identityNumber')}">-->
+<!--        <p th:errors="*{personalInfo.identityNumber}"></p>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash; Submit Button &ndash;&gt;-->
+<!--    <button type="submit">Save Teacher</button>-->
+<!--</form>-->
+
+<!--</body>-->
+<!--</html>-->
