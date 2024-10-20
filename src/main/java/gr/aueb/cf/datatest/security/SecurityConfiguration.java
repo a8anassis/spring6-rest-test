@@ -48,6 +48,7 @@ public class SecurityConfiguration {
                 .exceptionHandling((exceptions) -> exceptions.authenticationEntryPoint(myCustomAuthenticationEntryPoint()))
                 .authorizeHttpRequests(req -> req
                                 .requestMatchers("/api/teachers/save").permitAll()
+                                .requestMatchers("/api/auth/authenticate").permitAll()
                                 .requestMatchers("/api/teachers/**").hasAnyAuthority(Role.TEACHER.name(), Role.SUPER_ADMIN.name())
                                 .requestMatchers("/api/employess/**").hasAuthority(Role.EMPLOYEE.name())
                                 .requestMatchers("/**").permitAll()

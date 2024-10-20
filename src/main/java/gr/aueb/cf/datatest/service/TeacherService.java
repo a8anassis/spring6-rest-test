@@ -58,6 +58,10 @@ public class TeacherService {
             throw new AppObjectAlreadyExists("AMKA", "PersonalInfo with AMKA " + teacherInsertDTO.getPersonalInfo().getAmka() + " already exists.");
         }
 
+        if (userRepository.findByUsername(teacherInsertDTO.getUser().getUsername()).isPresent()) {
+            throw new AppObjectAlreadyExists("Username", "User with username " + teacherInsertDTO.getUser().getUsername() + " already exists.");
+        }
+
         Teacher teacher = mapper.mapToTeacherEntity(teacherInsertDTO);
         //teacher.getUser().setPassword(passwordEncoder.encode(teacher.getUser().getPassword()));
 
