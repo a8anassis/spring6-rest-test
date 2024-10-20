@@ -46,11 +46,11 @@ public class TeacherRestController {
         return new ResponseEntity<>(teachersPage, HttpStatus.OK);
     }
 
-    @PostMapping("/teachers/save")
+    @PostMapping(value = "/teachers/save")
     public ResponseEntity<TeacherReadOnlyDTO> saveTeacher(
-            @Valid @RequestBody TeacherInsertDTO teacherInsertDTO,
-//            @Valid @RequestPart(name = "teacher") TeacherInsertDTO teacherInsertDTO,
-//            @Nullable @RequestParam("amkaFile") MultipartFile amkaFile,
+//            @Valid @RequestBody TeacherInsertDTO teacherInsertDTO,
+            @Valid @RequestPart(name = "teacher") TeacherInsertDTO teacherInsertDTO,
+            @Nullable @RequestPart("amkaFile") MultipartFile amkaFile,
             BindingResult bindingResult)
             throws AppObjectInvalidArgumentException, ValidationException, AppObjectAlreadyExists, AppServerException {
 
@@ -60,8 +60,8 @@ public class TeacherRestController {
         }
 
         try {
-//            TeacherReadOnlyDTO teacherReadOnlyDTO = teacherService.saveTeacher(teacherInsertDTO, amkaFile);
-            TeacherReadOnlyDTO teacherReadOnlyDTO = teacherService.saveTeacher(teacherInsertDTO, null);
+            TeacherReadOnlyDTO teacherReadOnlyDTO = teacherService.saveTeacher(teacherInsertDTO, amkaFile);
+//            TeacherReadOnlyDTO teacherReadOnlyDTO = teacherService.saveTeacher(teacherInsertDTO, null);
             return new ResponseEntity<>(teacherReadOnlyDTO, HttpStatus.OK);
         } catch (IOException e) {
             throw new AppServerException("Attachment", "Attachment can not get uploaded");

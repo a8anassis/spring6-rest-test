@@ -65,9 +65,9 @@ public class TeacherService {
         Teacher teacher = mapper.mapToTeacherEntity(teacherInsertDTO);
         //teacher.getUser().setPassword(passwordEncoder.encode(teacher.getUser().getPassword()));
 
-//        if (!amkaFile.isEmpty()) {
-//            saveAmkaFile(teacher.getPersonalInfo(), amkaFile);
-//        }
+        if (!amkaFile.isEmpty()) {
+            saveAmkaFile(teacher.getPersonalInfo(), amkaFile);
+        }
 
         // Save the teacher (cascades to User and PersonalInfo)
         Teacher savedTeacher = teacherRepository.save(teacher);

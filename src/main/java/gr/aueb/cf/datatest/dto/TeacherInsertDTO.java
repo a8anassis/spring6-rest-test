@@ -1,10 +1,12 @@
 package gr.aueb.cf.datatest.dto;
 
+import gr.aueb.cf.datatest.model.Attachment;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.time.LocalDate;
 
