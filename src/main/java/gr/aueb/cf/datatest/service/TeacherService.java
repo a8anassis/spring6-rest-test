@@ -58,6 +58,7 @@ public class TeacherService {
             throw new AppObjectAlreadyExists("AMKA", "PersonalInfo with AMKA " + teacherInsertDTO.getPersonalInfo().getAmka() + " already exists.");
         }
 
+        // Check if the username already exists in the system
         if (userRepository.findByUsername(teacherInsertDTO.getUser().getUsername()).isPresent()) {
             throw new AppObjectAlreadyExists("Username", "User with username " + teacherInsertDTO.getUser().getUsername() + " already exists.");
         }
