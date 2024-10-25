@@ -22,15 +22,17 @@ public class AuthenticationService {
     private final JwtService jwtService;
     private final UserRepository userRepository;
 
-    public AuthenticationResponseDTO authenticate(AuthenticationRequestDTO dto)
-            throws AppObjectNotAuthorizedException {
+    public AuthenticationResponseDTO authenticate(AuthenticationRequestDTO dto) {
+            // throws AppObjectNotAuthorizedException {
         // Authenticate and Create an authentication token from username and password
         Authentication authentication = authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(dto.getUsername(), dto.getPassword())
         );
 
-        User user = userRepository.findByUsername(authentication.getName())
-                .orElseThrow(() -> new AppObjectNotAuthorizedException("User", "User not authorized"));
+        User user = (User) authentication.getPrincipal();
+
+//        User user = userRepository.findByUsername(authentication.getName())
+//                .orElseThrow(() -> new AppObjectNotAuthorizedException("User", "User not authorized"));
 
         // If authentication was successful, generate JWT token
         String token = jwtService.generateToken(authentication.getName(), user.getRole().name());
