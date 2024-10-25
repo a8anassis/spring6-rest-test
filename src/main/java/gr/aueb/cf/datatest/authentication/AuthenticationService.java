@@ -24,7 +24,7 @@ public class AuthenticationService {
 
     public AuthenticationResponseDTO authenticate(AuthenticationRequestDTO dto)
             throws AppObjectNotAuthorizedException {
-        // Create an authentication token from username and password
+        // Authenticate and Create an authentication token from username and password
         Authentication authentication = authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(dto.getUsername(), dto.getPassword())
         );
