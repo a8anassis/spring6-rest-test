@@ -84,6 +84,12 @@ public class TeacherService {
         return new Paginated<>(filtered.map(mapper::mapToTeacherReadOnlyDTO));
     }
 
+    @Transactional
+    public List<TeacherReadOnlyDTO> getTeachersFiltered(TeacherFilters filters) {
+        return teacherRepository.findAll(getSpecsFromFilters(filters))
+                .stream().map(mapper::mapToTeacherReadOnlyDTO).toList();
+    }
+
 
     // Method to handle saving the uploaded AMKA file and linking it to PersonalInfo
     @Transactional(rollbackFor = Exception.class)
@@ -127,11 +133,6 @@ public class TeacherService {
         return "";
     }
 
-
-    @Transactional
-    public List<Teacher> getTeachers() {
-        return teacherRepository.findAll();
-    }
 
     @Transactional
     public Page<TeacherReadOnlyDTO> getPaginatedTeachers(int page, int size) {

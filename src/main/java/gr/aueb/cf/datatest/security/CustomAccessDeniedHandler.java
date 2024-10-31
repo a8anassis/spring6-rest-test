@@ -7,6 +7,11 @@ import org.springframework.security.web.access.AccessDeniedHandler;
 
 import java.io.IOException;
 
+/**
+ * When an authenticated user tries to access a resource without
+ * the necessary permissions, Spring Security triggers the Access Denied Handler.
+ * By default, it returns a 403 Forbidden status.
+ */
 public class CustomAccessDeniedHandler implements AccessDeniedHandler {
 
     @Override

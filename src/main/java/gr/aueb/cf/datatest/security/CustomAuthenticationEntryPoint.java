@@ -7,6 +7,12 @@ import org.springframework.security.web.AuthenticationEntryPoint;
 
 import java.io.IOException;
 
+/**
+ * When an unauthenticated user tries to access a secured endpoint,
+ * the Authentication Entry Point is triggered. By default, in a web application,
+ * this usually redirects the user to a login page or returns a 401 Unauthorized
+ * status for APIs.
+ */
 public class CustomAuthenticationEntryPoint implements AuthenticationEntryPoint {
 
     @Override

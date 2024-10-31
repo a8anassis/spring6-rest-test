@@ -39,12 +39,13 @@ public class TeacherRestController {
     @GetMapping("/teachers")
     public ResponseEntity<Page<TeacherReadOnlyDTO>> getPaginatedTeachers(
             @RequestParam(defaultValue = "0") int page,
-            @RequestParam(defaultValue = "5") int size,
-            Model model) {
+            @RequestParam(defaultValue = "5") int size) {
 
         Page<TeacherReadOnlyDTO> teachersPage = teacherService.getPaginatedTeachers(page, size);
         return new ResponseEntity<>(teachersPage, HttpStatus.OK);
     }
+
+
 
     @PostMapping(value = "/teachers/save")
     public ResponseEntity<TeacherReadOnlyDTO> saveTeacher(
