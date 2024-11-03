@@ -65,7 +65,7 @@ public class SecurityConfiguration {
     @Bean
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(List.of("https://coding-factory.apps.gov.gr", "https://test-coding-factory.apps.gov.gr" , "http://localhost:4200", "http://localhost:5173"));
+        configuration.setAllowedOrigins(List.of("https://coding-factory.apps.gov.gr", "https://test-coding-factory.apps.gov.gr" , "http://localhost:3000",  "http://localhost:4200", "http://localhost:5173"));
         configuration.setAllowedMethods(List.of("*"));
         configuration.setAllowedHeaders(List.of("*"));
         configuration.setAllowCredentials(true);

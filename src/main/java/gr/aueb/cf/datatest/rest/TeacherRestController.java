@@ -1,16 +1,19 @@
 package gr.aueb.cf.datatest.rest;
 
-import gr.aueb.cf.datatest.core.excpetions.AppObjectInvalidArgumentException;
-import gr.aueb.cf.datatest.core.excpetions.AppObjectAlreadyExists;
-import gr.aueb.cf.datatest.core.excpetions.AppServerException;
+import gr.aueb.cf.datatest.core.excpetions.*;
+import gr.aueb.cf.datatest.core.filters.Paginated;
+import gr.aueb.cf.datatest.core.filters.TeacherFilters;
 import gr.aueb.cf.datatest.dto.PersonalInfoInsertDTO;
 import gr.aueb.cf.datatest.dto.TeacherInsertDTO;
 import gr.aueb.cf.datatest.dto.TeacherReadOnlyDTO;
 import gr.aueb.cf.datatest.dto.UserInsertDTO;
 import gr.aueb.cf.datatest.mapper.Mapper;
+import gr.aueb.cf.datatest.model.Teacher;
 import gr.aueb.cf.datatest.service.TeacherService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,10 +24,11 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.ui.Model;
 import org.springframework.web.multipart.MultipartFile;
-import gr.aueb.cf.datatest.core.excpetions.ValidationException;
 
 import java.io.IOException;
+import java.security.Principal;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -32,7 +36,7 @@ import java.util.Map;
 @RequiredArgsConstructor
 public class TeacherRestController {
 
-
+    private static final Logger LOGGER = LoggerFactory.getLogger(TeacherRestController.class);
     private final TeacherService teacherService;
     private final Mapper mapper;
 
@@ -45,7 +49,29 @@ public class TeacherRestController {
         return new ResponseEntity<>(teachersPage, HttpStatus.OK);
     }
 
+    @PostMapping("/teachers/all")
+    public ResponseEntity<List<TeacherReadOnlyDTO>> getTeachers(@Nullable @RequestBody TeacherFilters filters, Principal principal)
+            throws AppObjectNotFoundException, AppObjectNotAuthorizedException {
+        try {
+            if (filters == null) filters = TeacherFilters.builder().build();
+            return ResponseEntity.ok(teacherService.getTeachersFiltered(filters));
+        } catch (Exception e) {
+            LOGGER.error("ERROR: Could not get teachers.", e);
+            throw e;
+        }
+    }
 
+    @PostMapping("/teachers/all/paginated")
+    public ResponseEntity<Paginated<TeacherReadOnlyDTO>> getTeachersPaginated(@Nullable @RequestBody TeacherFilters filters, Principal principal)
+            throws AppObjectNotFoundException, AppObjectNotAuthorizedException {
+        try {
+            if (filters == null) filters = TeacherFilters.builder().build();
+            return ResponseEntity.ok(teacherService.getTeachersFilteredPaginated(filters));
+        } catch (Exception e) {
+            LOGGER.error("ERROR: Could not get teachers.", e);
+            throw e;
+        }
+    }
 
     @PostMapping(value = "/teachers/save")
     public ResponseEntity<TeacherReadOnlyDTO> saveTeacher(

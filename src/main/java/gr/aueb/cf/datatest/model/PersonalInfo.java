@@ -23,7 +23,8 @@ public class PersonalInfo extends AbstractEntity {
     @JoinColumn(name = "amka_file_id")
     private Attachment amkaFile;
 
-    public PersonalInfo(Long id, String  amka, String identityNumber, String placeOfBirth, String municipalityOfRegistration) {
+    public PersonalInfo(Long id, String  amka, String identityNumber,
+                        String placeOfBirth, String municipalityOfRegistration) {
         this.id = id;
         this.amka = amka;
         this.identityNumber = identityNumber;

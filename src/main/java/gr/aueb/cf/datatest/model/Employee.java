@@ -30,7 +30,6 @@ public class Employee extends AbstractEntity {
     )
     private Set<EducationalUnit> eduUnits = new HashSet<>();
 
-
     public Set<EducationalUnit> getAllEduUnits() {
         if (eduUnits == null) eduUnits = new HashSet<>();
         return Collections.unmodifiableSet(eduUnits);
